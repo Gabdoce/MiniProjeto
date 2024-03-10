@@ -1,53 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
+    <link rel="stylesheet" type="text/css" href="index2.css" media="screen" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Pet Shop</title>
-    <link rel="icon" href="imagens/OIG3-removebg-preview.png">
-    <link rel="stylesheet" type="text/css" href="index2.css" media="screen" />
+    <title>Cadastro Pet shop</title>
+    <link rel="icon" href="imagens/OIG3-removebg-preview.png"> 
 </head>
-
 <body>
+   
+    <div class="logo-container">
+        <img class="logo" src="imagens/OIG3-removebg-preview.png" alt="Logo Petshop">
+    </div>
 
-    <header>
-        <div class="logo-container">
-            <img class="logo" src="imagens/OIG3-removebg-preview.png" alt="Logo Petshop">
-        </div>
-        <h1>Cadastro de Cliente - Pet Shop</h1>
-    </header>
+    <h2>Cadastro de Cliente - Pet Shop</h2>
 
-    <main>
-        <form id="petshopForm">
-            <label for="nome">Nome do Cliente:</label>
-            <input type="text" id="nome" name="nome" required>
+    <form id="petshopForm">
+        <label for="nome">Nome do Cliente:</label>
+        <input type="text" id="nome" name="nome" required>
 
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" required>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
 
-            <label for="animal">Animal de Estimação:</label>
-            <input type="text" id="animal" name="animal" required>
+        <label for="animal">Animal de Estimação:</label>
+        <input type="text" id="animal" name="animal" required>
 
-            <label for="servico">Serviço Desejado:</label>
-            <select id="servico" name="servico" required>
-                <option value="banho">Banho</option>
-                <option value="tosa">Tosa</option>
-                <option value="consulta">Consulta Veterinária</option>
-            </select>
+        <label for="servico">Serviço Desejado:</label>
+        <select id="servico" name="servico" required>
+            <option value="banho">Banho</option>
+            <option value="tosa">Tosa</option>
+            <option value="consulta">Consulta Veterinária</option>
+     
+        </select>
 
-            <button type="submit">Cadastrar</button>
-        </form>
+        <button type="submit">Cadastrar</button>
+    </form>
 
-        <ul id="lista-clientes"></ul>
-    </main>
+    <ul id="lista-clientes"></ul>
 
-    <footer>
-        <script src="index.js"></script>
-    </footer>
+    <script src="index.js"></script>
 </body>
-
 </html>
