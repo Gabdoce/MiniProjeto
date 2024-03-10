@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #23158f, #060418);
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom:  10px;  
+  }
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #f4f5fd;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fdfcff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(56, 10, 117, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #2c0aa7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: hsl(246, 78%, 16%);
+}
+
+#lista-clientes,
+#lista-clientes-aba {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-clientes li,
+#lista-clientes-aba li {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+#lista-clientes li button,
+#lista-clientes-aba li button {
+    margin-left: 10px;
+    background-color: #3316b6;
+    color: rgb(244, 245, 239);
+    padding: 5px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#lista-clientes li button:hover,
+#lista-clientes-aba li button:hover {
+    background-color: #d32f2f;
+}
